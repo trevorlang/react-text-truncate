@@ -1,0 +1,48 @@
+{
+  "name": "react-truncate-text",
+  "version": "1.0.0",
+  "description": "A React component that makes dynamically truncating text stupid simple.",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevorlang/react-truncate-text"
+  },
+  "author": {
+    "name": "Trevor Lang",
+    "email": "trevorlang3@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Trevor Lang",
+      "email": "trevorlang3@gmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "react": "16.4.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "prop-types": "^15.7.2",
+    "react": "16.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "3.0.4"
+  }
+}
