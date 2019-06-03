@@ -1,6 +1,6 @@
 {
   "name": "react-truncate-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component that makes dynamically truncating text stupid simple.",
   "main": "build/index.js",
   "repository": {
