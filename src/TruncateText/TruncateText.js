@@ -43,8 +43,8 @@ export class TruncateText extends React.Component {
     const { children } = this.props
     if (!children) return
     const tempParent = element.parentNode.cloneNode(true)
-    const originalElement = tempParent.querySelector('.text-truncate')
-    const tempElement = this.createClone(tempParent.querySelector('.text-truncate'))
+    const originalElement = tempParent.querySelector('.rtt-element')
+    const tempElement = this.createClone(tempParent.querySelector('.rtt-element'))
     const grandparent = element.parentNode.parentNode
 
     tempElement.innerHTML = children
@@ -64,7 +64,7 @@ export class TruncateText extends React.Component {
   render() {
     const { children, className, ...rest } = this.props
     const { truncatedText } = this.state
-    const classNames = `text-truncate ${className}`
+    const classNames = `rtt-element ${className}`
     return (
       <Text ref={this.componentRef} className={classNames} title={children} {...rest}>
         {truncatedText}
