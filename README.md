@@ -2,6 +2,10 @@
 A React component that makes dynamically truncating text stupid simple. Pass in the number of lines you would like to render, and the component will take care of the rest. The component will take into account any currently applied styles when rendering.
 
 ```
+npm i react-truncate-text
+```
+
+```
   import TruncateText from 'react-truncate-text'
 
   <TruncateText as="h1" className="my-shortend-text" lines={3}>
